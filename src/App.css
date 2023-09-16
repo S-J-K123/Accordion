@@ -47,6 +47,23 @@
   align-items: center;
   border: 2px solid black;
 }
+.picTwo-btm {
+
+  border: 2px solid black;
+}
+.picThree-btm {
+ 
+  border: 2px solid black;
+}
+
+.picTwo {
+
+  border: 2px solid black;
+}
+.picThree {
+ 
+  border: 2px solid black;
+}
 
 .picThree-btm {
   background-color: #4b4d6e;
@@ -164,9 +181,37 @@ a{
     margin: 0 auto;
   }
 }
+@media (max-width: 815px) {
+  .picTwo {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 815px) {
+  .picThree {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
 
 @media (max-width: 390px) {
   .picOne {
+    width: 100%;
+    max-width: 390px;
+    
+    margin: 0 auto;
+  }
+}
+@media (max-width: 390px) {
+  .picTwo {
+    width: 100%;
+    max-width: 390px;
+    
+    margin: 0 auto;
+  }
+}
+@media (max-width: 390px) {
+  .picThree {
     width: 100%;
     max-width: 390px;
     
@@ -180,6 +225,20 @@ a{
 @media (max-width: 802px) {
   .picOne-btm {
    max-width: 500px;
+    margin: 0 auto;
+    
+  }
+}
+@media (max-width: 802px) {
+  .picTwo-btm {
+   max-width: 802px;
+    margin: 0 auto;
+    
+  }
+}
+@media (max-width: 802px) {
+  .picThree-btm {
+   max-width: 800px;
     margin: 0 auto;
     
   }
@@ -202,6 +261,22 @@ margin-right: 53px;
 
 @media (max-width: 390px) {
   .picOne-btm {
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    
+  }
+}
+@media (max-width: 390px) {
+  .picTwo-btm {
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    
+  }
+}
+@media (max-width: 390px) {
+  .picThree-btm {
     width: 100%;
     max-width: 390px;
     margin: 0 auto;
